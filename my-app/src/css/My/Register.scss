@@ -1,0 +1,23 @@
+.register {
+  .content {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 5px;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    .am-list-item .am-input-label.am-input-label-5 {
+      width: 25px;
+    }
+    .submit {
+      margin: 40px auto 0;
+    }
+    .toRegister {
+      text-align: right;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+   
+  }
+}

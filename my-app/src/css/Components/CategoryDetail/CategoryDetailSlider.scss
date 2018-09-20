@@ -1,0 +1,30 @@
+
+
+.categoryDetail_slider {
+  overflow: scroll;
+  // -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  // * {
+  //   touch-action: pan-y;
+  // }
+  background-color: #fff;
+  text-align: center;
+  .item_box {
+    overflow: hidden;
+    width: 2000px;
+    .item {
+      float: left;
+      padding: 5px;
+      img {
+        display: block;
+        width: 120px;
+
+      }
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+}

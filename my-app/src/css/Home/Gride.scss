@@ -1,0 +1,37 @@
+.home_gride {
+  
+  .am-flexbox {
+    height: 100px;
+  }
+  .am-grid .am-flexbox .am-flexbox-item .am-grid-item-content {
+    padding: 8px 0;
+  }
+  .item_box {
+    display: flex;
+    color: rgb(87, 86, 86);
+    .title {
+      text-align: left;
+      flex: 3;
+      padding-left: 10px;
+      color: #333333;
+      h5 {
+        font-weight: 800;
+        margin-bottom: 10px;
+        font-size: 16px;
+        color: #000;
+      }
+      p {
+        margin-top: 5px;
+        font-size: 14px;
+        color: #acacac;
+      }
+    }
+    .img {
+      flex: 2;
+      img {
+        width: 80%;
+        height: 80%;
+      }
+    }
+  }
+}

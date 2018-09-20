@@ -1,0 +1,16 @@
+body {
+  /* overflow: scroll */
+  /* -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;  */
+  /* -webkit-overflow-scrolling: auto */
+}
+a {
+  color: #000
+}
+.am-navbar {
+  background-color: #f7f7f7!important;
+  border-bottom: 1px solid #eee;
+}
+.am-navbar-left, .am-navbar-right {
+  color: #818588!important;
+}

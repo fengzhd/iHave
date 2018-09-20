@@ -1,0 +1,18 @@
+.home_search .am-search {
+  z-index: 99;
+}
+
+.home_search .popups {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  margin-top: 44px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: left;
+  padding-left: 10px;
+  z-index: 98;
+  overflow: hidden;
+  transition: all 0.5s;
+}

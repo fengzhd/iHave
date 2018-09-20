@@ -1,0 +1,53 @@
+.login {
+  .content {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 5px;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    .am-list-item .am-input-label.am-input-label-5 {
+      width: 25px;
+    }
+    .submit {
+      margin: 40px auto 0;
+    }
+    .toRegister {
+      text-align: right;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    .otherLogin {
+      margin-top: 100px;
+      text-align: center;
+      .item {
+        display: flex;
+        div {
+          flex: 1;
+          i {
+            display: block;
+            font-size: 45px;
+            margin-bottom: 10px;
+          }
+        }
+        .wx {
+          i {
+            color: #50b674
+          }
+        }
+        .qq {
+          i {
+            color: #30a5dd
+          }
+        }
+        .wb {
+          i {
+            color: #ea5d5c
+          }
+        }
+      }
+    }
+   
+  }
+}

@@ -1,0 +1,71 @@
+.Category_list .out_box .item {
+  display: flex;
+  background-color: #fff;
+  margin: 5px 0;
+  padding: 10px 20px;
+}
+
+.Category_list .out_box .item .left {
+  flex: 1;
+}
+
+.Category_list .out_box .item .left div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.Category_list .out_box .item .left div img {
+  width: 100%;
+}
+
+.Category_list .out_box .item .right {
+  flex: 4;
+}
+
+.Category_list .out_box .item .right .title {
+  display: flex;
+}
+
+.Category_list .out_box .item .right .title .attention {
+  text-align: right;
+  padding-right: 5px;
+}
+
+.Category_list .out_box .item .right .title div {
+  flex: 1;
+}
+
+.Category_list .out_box .item .right .title h5 {
+  font-size: 16px;
+  margin: 10px 0 5px 0;
+  font-weight: 1000;
+}
+
+.Category_list .out_box .item .right .title p {
+  margin: 5px 0;
+}
+
+.Category_list .out_box .item .right .text {
+  margin: 0 0 5px 0;
+  max-height: 70px;
+  overflow: hidden;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.Category_list .out_box .item .right .text h1, .Category_list .out_box .item .right .text h2, .Category_list .out_box .item .right .text h3, .Category_list .out_box .item .right .text h4, .Category_list .out_box .item .right .text h5, .Category_list .out_box .item .right .text h6, .Category_list .out_box .item .right .text p, .Category_list .out_box .item .right .text ul li {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.Category_list .out_box .item .right .text img {
+  display: none;
+}
+
+.Category_list .loadMore {
+  line-height: 50px;
+  text-align: center;
+}

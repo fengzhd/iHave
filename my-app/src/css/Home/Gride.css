@@ -1,0 +1,41 @@
+.home_gride .am-flexbox {
+  height: 100px;
+}
+
+.home_gride .am-grid .am-flexbox .am-flexbox-item .am-grid-item-content {
+  padding: 8px 0;
+}
+
+.home_gride .item_box {
+  display: flex;
+  color: #575656;
+}
+
+.home_gride .item_box .title {
+  text-align: left;
+  flex: 3;
+  padding-left: 10px;
+  color: #333333;
+}
+
+.home_gride .item_box .title h5 {
+  font-weight: 800;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #000;
+}
+
+.home_gride .item_box .title p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #acacac;
+}
+
+.home_gride .item_box .img {
+  flex: 2;
+}
+
+.home_gride .item_box .img img {
+  width: 80%;
+  height: 80%;
+}

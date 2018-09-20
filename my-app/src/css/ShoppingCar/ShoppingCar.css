@@ -1,0 +1,147 @@
+.shoppingCar {
+  padding-top: 45px;
+  padding-bottom: 55px;
+  touch-action: pan-y;
+}
+
+.shoppingCar .navBar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+.shoppingCar .cartList {
+  margin-top: 5px;
+}
+
+.shoppingCar .cartList .cartItem {
+  display: flex;
+  margin-top: 5px;
+  background-color: #fff;
+}
+
+.shoppingCar .cartList .cartItem .left {
+  flex: 0.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  padding-left: 10px;
+}
+
+.shoppingCar .cartList .cartItem .left i {
+  font-size: 35px;
+}
+
+.shoppingCar .cartList .cartItem .img {
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+
+.shoppingCar .cartList .cartItem .img img {
+  width: 100%;
+}
+
+.shoppingCar .cartList .cartItem .right {
+  flex: 4;
+  position: relative;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.shoppingCar .cartList .cartItem .right word-wrap:break-word
+h3 {
+  margin: 15px 0;
+}
+
+.shoppingCar .cartList .cartItem .right p {
+  margin: 10px 0;
+  display: flex;
+}
+
+.shoppingCar .cartList .cartItem .right p span {
+  flex: 1;
+}
+
+.shoppingCar .cartList .cartItem .right .totalPrice {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.shoppingCar .cartList .cartItem .right .totalPrice .unitPrice {
+  flex: 1;
+  font-size: 16px;
+}
+
+.shoppingCar .cartList .cartItem .right .totalPrice .unitPrice i {
+  font-style: normal;
+  font-size: 14px;
+}
+
+.shoppingCar .cartList .cartItem .right .totalPrice .stepper {
+  flex: 1;
+}
+
+.shoppingCar .toPay {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  bottom: 56px;
+  background-color: #fff;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
+
+.shoppingCar .toPay .all {
+  display: flex;
+  align-items: center;
+}
+
+.shoppingCar .toPay .all i {
+  font-size: 30px;
+}
+
+.shoppingCar .toPay div {
+  flex: 1;
+}
+
+.shoppingCar .toPay div:first-child {
+  flex: 1;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.shoppingCar .toPay div:last-child {
+  border-left: 1px solid #eee;
+}
+
+.shoppingCar .selectAll {
+  color: #6cbdf7;
+}
+
+.am-list-extra {
+  display: none;
+}
+
+.am-list-item .am-list-line .am-list-arrow-horizontal {
+  display: none;
+}
+
+.am-list-item .am-list-line {
+  margin-right: 0;
+}
+
+.am-list-item {
+  padding-left: 0;
+}
+
+.am-swipe {
+  overflow: visible;
+}

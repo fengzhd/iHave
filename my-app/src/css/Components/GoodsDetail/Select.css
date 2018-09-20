@@ -1,0 +1,87 @@
+.select_connect {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  left: 0;
+  transition: all 0.5s;
+}
+
+.select_connect .main {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 350px;
+  background-color: #fff;
+  padding-top: 100px;
+}
+
+.select_connect .main .header {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: -50px;
+  left: 20px;
+  border: 1px solid #eee;
+}
+
+.select_connect .main .header img {
+  width: 100%;
+  height: 100%;
+}
+
+.select_connect .main span {
+  border: 1px solid #eee;
+  border-radius: 3px;
+  margin: 5px;
+  padding: 2px 15px;
+}
+
+.select_connect .main .active {
+  color: #f00;
+  border: 1px solid #f00;
+}
+
+.select_connect .main .seColor, .select_connect .main .seSize {
+  margin: 0 20px;
+}
+
+.select_connect .main .coTitle, .select_connect .main .siTitle {
+  margin: 10px 0;
+}
+
+.select_connect .main .btn {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.select_connect .main .btn div {
+  flex: 1;
+  padding: 0 5px;
+  text-align: center;
+  line-height: 40px;
+  border-right: 1px solid #eee;
+  border-top: 1px solid #eee;
+}
+
+.select_connect .main .btn div:last-child {
+  border-right: 0;
+}
+
+.select_connect .main .detailInfo {
+  margin-top: -35px;
+}
+
+.select_connect .main .detailInfo div {
+  line-height: 30px;
+  margin: 0 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.select_connect .main .detailInfo div span {
+  color: #f00;
+}

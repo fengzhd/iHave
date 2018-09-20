@@ -1,0 +1,46 @@
+.home_ListCategory_list {
+  background: #fff;
+  .list_item {
+    border-bottom: 1px solid #f4f4f4;
+    margin-bottom: 3px;
+    text-align: left;
+    color: #000;
+    display: block;
+    .img {
+      img {
+        width: 80px;
+        height: 80px;
+        margin-right: 10px;
+      }
+    }
+    .right {
+      flex: 1;
+      h4 {
+        margin-bottom: 5px;
+      }
+      p {
+        width: 100%;
+        margin: 5px 0;
+        span {
+          color: #c5c5c5
+        }
+      }
+      .time {
+        float: right
+      }
+      .price {
+        color: #df2924;
+      }
+      .intro {
+        margin: 10px 0;
+        span {
+          color: #dd1712
+        }
+      }
+    }
+    
+  }
+  .nomore {
+    text-align: center;
+  }
+}

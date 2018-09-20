@@ -1,0 +1,17 @@
+// 列表分类
+.list_category {
+  background-color: #fff;
+  display: flex;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  div {
+    flex: 1;
+    height: 100%;
+    padding: 10px 0;
+    margin: 0 15px;
+  }
+  .active {
+    color: red;
+    border-bottom: 2px solid red
+  }  
+}

@@ -1,0 +1,25 @@
+.home_ListCategory {
+  .am-tabs {
+    padding-top: 44px;
+    position: relative;
+  }
+  .am-tabs-tab-bar-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .am-tabs-default-bar-tab-active {
+    color: #dd1712;
+  }
+  .am-tabs-default-bar-underline {
+    border: 1px #dd1712 solid;
+  }
+  .fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+  }
+}

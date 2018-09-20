@@ -1,0 +1,29 @@
+.ArticleDetail {
+  padding-top: 45px;
+  .tabbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  .main {
+    padding: 10px ;
+    background-color: #fff;
+    .title {
+      margin: 0 0 10px 0;
+
+    }
+    .time {
+      margin: 0;
+      border-bottom: 1px solid #eee;
+      padding: 5px 0;
+    }
+    .content {
+      line-height: 20px;
+      img{
+        width: 100%;
+        margin: 10px 0;
+      }
+    }
+  }
+}

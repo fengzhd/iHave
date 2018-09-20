@@ -1,0 +1,32 @@
+.orderby_box {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+  .orderby_item {
+    flex: 1;
+    border-right: 1px solid #eee;
+    &:last-child {
+      border: 0;
+    }
+    .content_box {
+      line-height: 40px;
+      background-color: rgba($color: #000000, $alpha: 0.2);
+      color: #fff;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 85px;
+      overflow: hidden;
+      transition: all 0.3s;
+      z-index: 99;
+      .content_item {
+        border-bottom: 1px solid #eee;
+        background-color: #fff;
+        color: #000
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.category_detail_list {
+  .out_box {
+    padding: 5px 0;
+    .item {
+      display: flex;
+      margin-bottom: 5px;
+      padding: 5px 0;
+      background-color: #fff;
+      .img {
+        flex: 1;        
+        img {
+          width: 90%;
+        }
+      }
+      .right {
+        flex: 2;
+        padding-left: 10px;
+        .title {
+          font-size: 16px;
+        }
+        .desc {
+          display: flex;
+          padding-top: 15px;
+          align-items: center;
+          .price {
+            flex: 1;
+            font-size: 18px;
+            font-weight: 800;
+            color: red;
+          }
+          .hits {
+            flex: 1
+          }
+        }
+      }
+    }
+  }
+  .loadMore{
+    line-height: 50px;
+    text-align: center;
+  }
+}
